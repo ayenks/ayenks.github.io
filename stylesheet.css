@@ -1,0 +1,122 @@
+button {
+	transition-duration: 0.4s;
+	background-color: rgb(175,175,175);
+	border-style: solid;
+	border-radius: 4px;
+	border-color: rgb(175,175,175);
+	color: white;
+}
+button:hover {
+	background-color: rgb(240, 240, 240);
+	border-color: rgb(240, 240, 240);
+	color: black;
+}
+
+#titlebox {
+	text-align: center;
+	background-color: lightblue;
+	margin: auto;
+	width: 300px;
+}
+#largebox {
+	height: 750px;
+	width: 830px;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+  border-color: rgb(255, 100, 255);
+	border-radius: 25px;
+	background: rgb(255,200,255);
+}
+.widgetbox {
+	height: 300px;
+	width: 400px;
+	margin: 5px;
+	display: block;
+	border-radius: 25px;
+	background: rgba(255,0,0,0.2);
+}
+#filler {
+	display: inline-block;
+	height: 0px;
+	width: 820px;
+}
+#databox {
+	height: 400px;
+	width: 805px;
+	padding: 5px;
+	display: inline-block;
+	background-color: rgba(125, 255, 205);
+	border-radius: 25px;
+}
+
+
+#movingarea {
+	height: 225px;
+	width: 350px;
+	margin: auto;
+	background-color: lightblue;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: blue;
+}
+#movingbox {
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+
+.widgetbox p {
+	font-family: Georgia;
+}
+.inputbox {
+	border-style: ridge;
+	margin-top: 10px;
+	height: 200px;
+	width: 125px;
+	display: block;
+}
+.inputbox input[type=text] {
+	font-size: 20px;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inputbox p {
+	margin: 0px;
+}
+.inputbox button {
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+}
+p.result {
+	margin-top:10px;
+	font-size: 20px;
+}
+
+
+#pointsinputbox {
+	height: 65px;
+}
+#pointsinputbox div {
+	height: 30px;
+}
+#pointsinputbox div p {
+	font-family: Georgia;
+	font-size: 13px;
+	float:left;
+	margin: 0px;
+	margin-top: 5px;
+	text-align: start;
+}
+#pointsinputbox div input {
+	float:right;
+	margin-right: 325px;
+	margin-top: 3px;
+	width: 30px;
+}
